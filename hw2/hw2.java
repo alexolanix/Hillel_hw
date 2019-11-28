@@ -54,6 +54,7 @@ public class Expoone {
     }
 
     // Заполняем массиив числами Фибоначчи первые две позиции указываем явно
+    // числа Фибоначчи первые две позиции указываем явно
     private static void fibo(){
         int uMx[] = new int[20];
         System.out.print("Fibo: ");
