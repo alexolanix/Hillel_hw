@@ -48,4 +48,14 @@ public class CargoCars extends Vehicle implements Car {
     public void setPrice(int price) {
 
     }
+
+    @Override
+    public int getFuelConsumption() {
+        return fuelConsumption;
+    }
+
+    @Override
+    public int getSpeedLimit() {
+        return speedLimit;
+    }
 }

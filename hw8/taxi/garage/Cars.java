@@ -3,7 +3,7 @@ package taxi.garage;
 import taxi.interfaces.Car;
 import taxi.parammetric.Vehicle;
 
-public class Cars extends Vehicle  {
+public class Cars extends Vehicle implements Car  {
     int quantityPassengers;
     boolean bigTrunk;
     String brand;
@@ -41,4 +41,23 @@ public class Cars extends Vehicle  {
     }
 
 
+    @Override
+    public int getPrice() {
+        return price;
+    }
+
+    @Override
+    public void setPrice(int price) {
+    this.price = price;
+    }
+
+    @Override
+    public int getFuelConsumption() {
+        return fuelConsumption;
+    }
+
+    @Override
+    public int getSpeedLimit() {
+        return speedLimit;
+    }
 }

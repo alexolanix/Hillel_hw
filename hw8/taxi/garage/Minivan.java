@@ -32,7 +32,17 @@ public class Minivan extends Vehicle implements Car {
 
     @Override
     public void setPrice(int price) {
-    this.price = price;
+        this.price = price;
+    }
+
+    @Override
+    public int getFuelConsumption() {
+        return fuelConsumption;
+    }
+
+    @Override
+    public int getSpeedLimit() {
+        return speedLimit;
     }
 
     @Override
