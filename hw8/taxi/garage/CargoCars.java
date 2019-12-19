@@ -1,9 +1,9 @@
 package taxi.garage;
 
 import taxi.interfaces.Car;
-import taxi.parammetric.Vehicle;
 
-public class CargoCars extends Vehicle implements Car {
+
+public class CargoCars implements Car {
     int sizeOfTrunkCubicMeter;
     int carryingCapacity;
     String brand;
@@ -14,7 +14,7 @@ public class CargoCars extends Vehicle implements Car {
     int speedLimit;
 
     public CargoCars(String brand, String model, int yearOfManufacturing, int fuelConsumption, int price, int speedLimit, int sizeOfTrunkCubicMeter, int carryingCapacity) {
-        super(brand, model, yearOfManufacturing, fuelConsumption, price, speedLimit);
+    
         this.sizeOfTrunkCubicMeter = sizeOfTrunkCubicMeter;
         this.carryingCapacity = carryingCapacity;
         this.brand = brand;
