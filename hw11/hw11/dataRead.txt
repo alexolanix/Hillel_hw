@@ -1,0 +1,7 @@
+Ford,Mondeo,5,220,20000,Cars;
+ford,Escape,12,180,40000,Cars;
+ford,fiesta,6,140,10000,Cars;
+ford,transit,10,110,10000,Cargo;
+ford,caddy,6,130,13000,Cargo;
+volkswagen,transporter,7,150,30000,Minivan;
+volkswagen,traveler,6,160,40000,Minivan;

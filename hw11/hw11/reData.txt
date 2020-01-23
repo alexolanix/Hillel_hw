@@ -1,0 +1,7 @@
+Cars: brand='Ford', model='Mondeo', fuelConsumption=5, price=20000, speedLimit=220, type='Cars;
+Cars: brand='ford', model='Escape', fuelConsumption=12, price=40000, speedLimit=180, type='Cars;
+Cars: brand='ford', model='fiesta', fuelConsumption=6, price=10000, speedLimit=140, type='Cars;
+CargoCars: brand='ford', model='transit', fuelConsumption=10, price=10000, speedLimit=110, type='Cargo;
+CargoCars: brand='ford', model='caddy', fuelConsumption=6, price=13000, speedLimit=130, type='Cargo;
+Minivan: brand='volkswagen', model='transporter', fuelConsumption=7, price=30000, speedLimit=150, type='Minivan;
+Minivan: brand='volkswagen', model='traveler', fuelConsumption=6, price=40000, speedLimit=160, type='Minivan;
