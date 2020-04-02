@@ -1,0 +1,8 @@
+
+<ul>
+    <li><a href="films">Find new films</a></li>
+	<li><a href="actors">Find actors from films</a></li>
+	<li><a href="actorsdirectors">Find actors who was directors</a></li>
+	<li><a href="actorsNfilms">Find actors filmed in n films</a></li>
+	<li><a href="delete">Delete films elder n years</a></li>
+</ul>
